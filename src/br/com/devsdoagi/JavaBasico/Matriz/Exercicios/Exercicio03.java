@@ -15,4 +15,8 @@ public class Exercicio03 {
         }
         return menorPreco;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
