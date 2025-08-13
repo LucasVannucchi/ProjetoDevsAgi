@@ -88,8 +88,8 @@ Este é um repositório pessoal de estudos, mas sugestões e feedbacks são semp
 
 ## 📬 Contato
 
-📧 Email: seuemail@exemplo.com  
-🔗 LinkedIn: [Seu Nome](https://www.linkedin.com/in/seu-usuario)
+📧 Email: lucasvannucchi16@gmail.com  
+🔗 LinkedIn: [Lucas Vannucchi](https://www.linkedin.com/in/lucas-vannucchi-072743239)
 
 ---
 
