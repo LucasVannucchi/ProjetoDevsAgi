@@ -1,4 +1,4 @@
-# 📘 Meus Estudos em Java & Backend
+]# 📘 Meus Estudos em Java & Backend
 
 Este repositório é dedicado à minha jornada de aprendizado no desenvolvimento backend com Java pelo AgiBank, passando por conceitos fundamentais, banco de dados, serviços web e culminando em um projeto prático completo. 🚀
 

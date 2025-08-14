@@ -17,6 +17,15 @@ public class Exercicio03 {
     }
 
     public static void main(String[] args) {
+        double[][] matriz = {
+                {1000,400.52,100},
+                {412, 400.51, 99}
+        };
 
+        double[] menorPreco = encontrarMenorPrecoPorProduto(matriz);
+
+        for (int i = 0; i < menorPreco.length; i++) {
+            System.out.println("Menor valor do produto " + (i + 1) + ": " + menorPreco[i]);
+        }
     }
 }
