@@ -7,7 +7,7 @@ public class Produto {
     public double preco;
     public int quantidade = 0;
 
-    public void adicionarEstoque(int quantidade) {
+    public void adicionarEstoque() {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Digite o nome do Produto que deseja adicionar: ");
@@ -22,7 +22,7 @@ public class Produto {
         System.out.println("Estoque atualizado com sucesso!");
     }
 
-    public void removerEstoque(int quantidade) {
+    public void removerEstoque() {
         Scanner sc = new Scanner(System.in);
 
         while (true) {
