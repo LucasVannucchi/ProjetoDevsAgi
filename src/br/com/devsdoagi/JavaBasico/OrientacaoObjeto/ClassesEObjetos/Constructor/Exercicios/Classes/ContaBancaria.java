@@ -6,8 +6,8 @@ public class ContaBancaria {
     private double saldo;
 
     public ContaBancaria() {
-        this.titular = null;
-        this.numeroConta = null;
+        this.titular = " ";
+        this.numeroConta = " ";
         this.saldo = 0;
     }
 
