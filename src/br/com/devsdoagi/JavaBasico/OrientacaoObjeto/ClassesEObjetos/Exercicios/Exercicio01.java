@@ -1,6 +1,6 @@
-package br.com.devsdoagi.JavaBasico.OrientacaoObjeto.Exercicios;
+package br.com.devsdoagi.JavaBasico.OrientacaoObjeto.ClassesEObjetos.Exercicios;
 
-import br.com.devsdoagi.JavaBasico.OrientacaoObjeto.Classes.Produto;
+import br.com.devsdoagi.JavaBasico.OrientacaoObjeto.ClassesEObjetos.Classes.Produto;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package br.com.devsdoagi.JavaBasico.OrientacaoObjeto.Classes;
+package br.com.devsdoagi.JavaBasico.OrientacaoObjeto.ClassesEObjetos.Exemplo.Classe;
 
 public class Carro {
     public String marca;

@@ -1,4 +1,4 @@
-package br.com.devsdoagi.JavaBasico.OrientacaoObjeto.Classes;
+package br.com.devsdoagi.JavaBasico.OrientacaoObjeto.ClassesEObjetos.Classes;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
-package br.com.devsdoagi.JavaBasico.OrientacaoObjeto;
+package br.com.devsdoagi.JavaBasico.OrientacaoObjeto.ClassesEObjetos.Exemplo;
 
-import br.com.devsdoagi.JavaBasico.OrientacaoObjeto.Classes.Carro;
+import br.com.devsdoagi.JavaBasico.OrientacaoObjeto.ClassesEObjetos.Exemplo.Classe.Carro;
 
 public class Aula {
     public static void main(String[] args) {
