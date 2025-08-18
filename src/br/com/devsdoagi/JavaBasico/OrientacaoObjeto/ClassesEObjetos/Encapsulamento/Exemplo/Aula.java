@@ -1,6 +1,6 @@
-package br.com.devsdoagi.JavaBasico.OrientacaoObjeto.Encapsulamento.Exemplo;
+package br.com.devsdoagi.JavaBasico.OrientacaoObjeto.ClassesEObjetos.Encapsulamento.Exemplo;
 
-import br.com.devsdoagi.JavaBasico.OrientacaoObjeto.Encapsulamento.Exemplo.Classe.Pessoa;
+import br.com.devsdoagi.JavaBasico.OrientacaoObjeto.ClassesEObjetos.Encapsulamento.Exemplo.Classe.Pessoa;
 
 public class Aula {
     public static void main(String[] args) {

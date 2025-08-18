@@ -1,4 +1,4 @@
-package br.com.devsdoagi.JavaBasico.OrientacaoObjeto.Encapsulamento.Exemplo.Classe;
+package br.com.devsdoagi.JavaBasico.OrientacaoObjeto.ClassesEObjetos.Encapsulamento.Exemplo.Classe;
 
 public class Pessoa {
     private String nome;

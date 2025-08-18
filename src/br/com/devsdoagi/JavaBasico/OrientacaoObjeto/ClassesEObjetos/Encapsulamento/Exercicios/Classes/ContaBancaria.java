@@ -1,4 +1,4 @@
-package br.com.devsdoagi.JavaBasico.OrientacaoObjeto.Encapsulamento.Classes;
+package br.com.devsdoagi.JavaBasico.OrientacaoObjeto.ClassesEObjetos.Encapsulamento.Exercicios.Classes;
 
 public class ContaBancaria {
     private String titular;

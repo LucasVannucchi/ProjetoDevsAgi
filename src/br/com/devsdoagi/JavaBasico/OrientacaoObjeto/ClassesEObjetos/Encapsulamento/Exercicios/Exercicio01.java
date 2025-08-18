@@ -1,6 +1,10 @@
-package br.com.devsdoagi.JavaBasico.OrientacaoObjeto.Encapsulamento.Exercicios;
+package br.com.devsdoagi.JavaBasico.OrientacaoObjeto.ClassesEObjetos.Encapsulamento.Exercicios;
 
-import br.com.devsdoagi.JavaBasico.OrientacaoObjeto.Encapsulamento.Classes.ContaBancaria;
+import br.com.devsdoagi.JavaBasico.OrientacaoObjeto.ClassesEObjetos.Encapsulamento.Exercicios.Classes.ContaBancaria;
+
+/*Lista de exercicios:
+https://docs.google.com/document/d/1GxWX1o2q-3bb6R6hIHd3GfIHrSVJs38G2-y9FM2xJGM/edit?tab=t.0
+*/
 
 public class Exercicio01 {
     public static void main(String[] args) {
