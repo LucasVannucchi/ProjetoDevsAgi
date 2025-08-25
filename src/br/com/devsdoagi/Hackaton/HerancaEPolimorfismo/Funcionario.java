@@ -1,3 +1,10 @@
+/*
+ * Autor: Lucas Vannucchi
+ * Data: 25/08/2025
+ * Descrição: Classe base que representa um funcionário genérico com nome e salário.
+ * Contém validações e metodo para retorno de bônus (sobrescrito nas subclasses).
+ */
+
 package br.com.devsdoagi.Hackaton.HerancaEPolimorfismo;
 
 public class Funcionario {

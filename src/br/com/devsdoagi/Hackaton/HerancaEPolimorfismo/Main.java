@@ -1,3 +1,10 @@
+/*
+ * Autor: Lucas Vannucchi
+ * Data: 25/08/2025
+ * Descrição: Classe principal que executa o programa, permitindo o cadastro e exibição
+ * de Gerentes e Analistas por meio de um menu interativo no console.
+ */
+
 package br.com.devsdoagi.Hackaton.HerancaEPolimorfismo;
 
 import java.util.Scanner;
