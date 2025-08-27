@@ -61,9 +61,13 @@ public class Main {
         System.out.println("\nInvestimentos em Renda Fixa:");
         int contadorFixa = 1;
         for (int i = 0; i < quantidade; i++) {
+
             if (investimentos[i] instanceof RendaFixa) {
+
                 double valorOriginal = investimentos[i].getValorInicial();
+
                 double rendimento = investimentos[i].calcularRendimento();
+
                 System.out.printf("Renda Fixa %d - Valor Inicial: R$ %.2f | Valor após rendimento: R$ %.2f\n",
                         contadorFixa, valorOriginal, rendimento);
                 contadorFixa++;
