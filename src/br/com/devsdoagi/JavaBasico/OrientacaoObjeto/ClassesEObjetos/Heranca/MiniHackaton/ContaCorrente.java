@@ -1,4 +1,4 @@
-package br.com.devsdoagi.JavaBasico.OrientacaoObjeto.ClassesEObjetos.MiniHackaton;
+package br.com.devsdoagi.JavaBasico.OrientacaoObjeto.ClassesEObjetos.Heranca.MiniHackaton;
 
 public class ContaCorrente extends Conta{
 
