@@ -1,0 +1,75 @@
+@startuml
+' ================================
+' ENUMS
+' ================================
+enum TipoUsuario {
+  EXPERIENTE
+  INICIANTE
+}
+
+enum TipoPerfil {
+  CONSERVADOR
+  MODERADO
+  ARROJADO
+}
+
+enum TipoInvestimento {
+  RENDA_FIXA
+  RENDA_VARIAVEL
+}
+
+' ================================
+' CLASSES
+' ================================
+class Usuario {
+  - id: int
+  - nome: String
+  - tipo: TipoUsuario
+  --
+  + simular()
+  + responderQuestionario()
+}
+
+class PerfilInvestidor {
+  - id: int
+  - tipo: TipoPerfil
+  --
+  + sugerirInvestimento()
+}
+
+class Investimento {
+  - id: int
+  - nome: String
+  - tipo: TipoInvestimento
+  - risco: String
+  --
+  + calcularRentabilidade(): double
+}
+
+class Simulacao {
+  - id: int
+  - usuario: Usuario
+  - perfil: PerfilInvestidor
+  - investimentos: List<Investimento>
+  --
+  + gerarResultado(): ResultadoSimulacao
+  + compararOpcoes()
+  + exportarSimulacao()
+}
+
+class ResultadoSimulacao {
+  - rentabilidade: double
+  - comparativo: String
+  - recomendacao: String
+  --
+  + exibir()
+}
+
+' ================================
+' RELACIONAMENTOS
+' ================================
+Usuario "1" -- "1" PerfilInvestidor
+Usuario "1" -- "N..." Simulacao
+Simulacao "1" -- "1  " ResultadoSimulacao
+Simulacao "1..*" -- "1..*" Investimento
+@enduml

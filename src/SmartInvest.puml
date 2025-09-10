@@ -1,0 +1,26 @@
+@startuml
+start
+
+:Início;
+
+if (Tipo de Usuário?) then (Experiente)
+  :Escolher tipo de simulação;
+  if (Tipo de Simulação?) then (Renda Fixa)
+    :Renda Fixa (Tesouro, CDB, etc.);
+  else (Renda Variável)
+    :Renda Variável (Ações);
+  endif
+else (Iniciante)
+  :Questionário Perfil do Investidor;
+  if (Resultado do Perfil) then (Conservador)
+    :Sugere Renda Fixa segura;
+  else if (Moderado)
+    :Sugere mix Fixa + Variável;
+  else (Arrojado)
+    :Sugere opções Variáveis\ncom alerta de risco;
+  endif
+endif
+
+:Resultado Final;
+stop
+@enduml
